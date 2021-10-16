@@ -1,0 +1,92 @@
+body {
+  font-family: "Roboto Mono", monospace;
+  min-height: 600px;
+  background-image: url("https://i.imgur.com/yhP10Sc.jpg");
+  background-color: #000000;
+  background-size: cover;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  height: 100vh;
+  background-color: #ffffff70;
+  border-radius: 4%;
+}
+
+.page-title {
+  color: #ffffff;
+  margin: 0 0 5px;
+  font-weight: bold;
+}
+
+.page-subtitle {
+  color: #000000;
+  margin-top: 16px;
+  font-weight: bold;
+}
+
+.tentativas {
+  color: #000000;
+  text-align: center;
+  margin-top: 16px;
+  font-weight: bold;
+}
+
+.page-logo {
+  width: 200px;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+@media (max-height: 500px) {
+  body {
+    min-height: 800px;
+  }
+}
+
+input {
+  margin: 4px;
+  padding: 6px;
+  border-radius: 5px;
+  color: #ffffff;
+  background-color: #00000095;
+}
+
+button{
+  background-color: #00000095;
+  border-color: #000000;
+  color: #ffffff;
+  padding: 8px;
+  font-weight: bold;
+  margin-top: 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  outline: none;
+}
+
+button:hover{
+  background-color: #ffffff90;
+  color: #000000;
+  transition: all 0.5s ease-out;
+}
+
+.resultado {
+  color: #000000;
+  text-align: center;
+  margin-top: 16px;
+  text-shadow: 0.1em 0.1em 0.2em white;
+  font-weight: bold;
+}
+
+hr{
+  margin-top: 2%;
+  margin-bottom: 2%;
+  width: 40%;
